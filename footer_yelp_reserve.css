@@ -7,6 +7,12 @@ footer {
   padding-top: 50px;
 }
 
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
 /*YELP BUTTON IN HEADER.........*/
 
 #yelp {
