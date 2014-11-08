@@ -42,7 +42,9 @@ button {
     font-family:'PT Sans','Arial', 'Open Sans';
 }
 
-.reserve {
-  text-align: center;
+.calendar {
+  display: none;
+  display: inline-block;
+
 }
 

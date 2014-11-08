@@ -1,7 +1,12 @@
-
 $('button').click(function(){
+  $('.calendar').toggle();
+  });
+
+
+
+/*$('button').click(function(){
   alert("Calendar");
-  })
+  })*/
 
 /*var inter;
 
