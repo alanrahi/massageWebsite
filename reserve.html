@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html>>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="footer_yelp_reserve.css">
-     	<div>
-  			<button id="reserve">Appointment</button>
-		</div>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" href="normalize.css">
+	    <link rel="stylesheet" href="footer_yelp_reserve.css">
+	    <script src="reserve.js"></script>
+    </head>
+    <div class="reserve">
+    	<button>Appointment</button>
+    <div class="calendar">
+  		<img src="images/calendar.jpg" onclick="myFunction(this)"/>  
+	<script>
+		var inter;
+
+$(document).ready(function(){
+    inter  = setInterval(function(){
+        $('.calendar').append('<img src="images/calendar"onclick="myFunction(this)">');
+    },1000);
+});
+
+var counter = 0;
+
+function myFunction(img) {
+    counter++;
+    document.getElementById('countervalue').innerHTML = counter;
+    img.onclick = null;
+    img.remove();
+    if(counter === 20){
+        clearInterval(inter);
+    }
+}
+	</script>
+
+
+	</div>
+    </div>
 </html>
