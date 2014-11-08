@@ -1,0 +1,104 @@
+
+
+
+
+body {
+	background: url(http://www.youwall.com/wallpapers/201210/sunny-forest-path-wallpaper-1152x864.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+	}
+
+
+
+img {
+	width:100%;
+	height: 200px;
+}
+
+li h1,
+li h2,
+li p, 
+li h3 
+{
+	font-family: helvetica;
+	margin-left: .8em;
+}
+
+	
+/*
+ .slider-container {
+	background-color: lightblue;
+	width: 100%;
+	height: 15em;
+	border-radius: 5px;
+	margin-top: 5em;
+}
+/*
+
+
+/*FOOTER.........*/
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+
+/*hamburger*/
+
+#hamburger {
+    border: 1px solid #999;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 25px;
+    background: #999;
+    z-index: 1;
+    opacity: 1;
+}
+
+#hamburger div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+    z-index: 1;
+    opacity: 1;
+}
+/*YELP BUTTON IN HEADER.........*/
+
+#yelp {
+  float: right;
+  width: 100px;
+  height: 50px;
+  margin-right: 2%;
+}
+
+#yelp img {
+  width: 100%;
+  height: 100%;
+}
+
+/*RESERVE BUTTON IN BODY.........*/
+
+#reserve {
+	width: 100px;
+    height: 50px;
+    background-color: orchid;
+}
+
+/* media queries */
+
+@ media screen and (max-width: 360px)
+
+
+
+
